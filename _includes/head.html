@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8" />
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <!--
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/fontello.css" />
+  <link rel="stylesheet" href="css/jquery.countdown.css" />
+  <link rel="stylesheet" href="css/jquery.validationengine.css" />
+  <link rel="stylesheet" href="css/flexslider.css">
+  -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="apple-touch-icon" href="images/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/touch-icon-ipad-retina.png">
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head>
