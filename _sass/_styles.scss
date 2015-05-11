@@ -975,6 +975,25 @@ a.instagram:hover {
 	color: #fff;
 	font-weight: 300;
 }
+/* Brunch Section -- bottom of speakers.html */
+#brunch {
+	background:url(/images/backgrounds/brunch-bkgd.jpg) center center no-repeat fixed;
+}
+.brunch {
+	float: left;
+	width: 100%;
+	padding: 80px 0px;
+}
+.brunch h2 {
+	color: #fff;
+	text-align: center;
+}
+.brunch p {
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+}
+
 /* Schedule Section */
 .schedule-download {
 	display: inline-block;
@@ -990,35 +1009,7 @@ a.instagram:hover {
 	font-weight: 100;
 	margin: 0;
 }
-/* Workshops Section */
-.event-items {
-	margin: 0;
-}
-.event-item {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background: #ffffff;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	-ms-border-radius: 8px;
-	-o-border-radius: 8px;
-	border-radius: 8px;
-	margin-bottom: 30px;
-}
-.event-item .event-date {
-	padding: 15px 0 0 15px;
-}
-.event-item .event-date time {
-	color: #85959e;
-	font-size: 15px;
-	font-weight: bold;
-	line-height: 30px;
-	text-transform: uppercase;
-}
-.event-image > img {
-	width: 55%;
-}
+
 /* Share Widget */
 .share-widget {
 	float: right;
@@ -1496,7 +1487,7 @@ a.instagram:hover {
 }
 .nav-collapse, .nav-collapse.collapse {
  background: none repeat scroll 0 0 #E7EBED;
- border-radius: 8px;
+ border-radius: none;
 }
 .nav-collapse .nav > li {
  float: left;
@@ -1505,6 +1496,7 @@ a.instagram:hover {
 }
 .top-bar .navbar .nav > li > a {
  margin: 2px 4px;
+ color: #2d2d2d;
 }
 .top-bar .navbar .nav > li:first-child > a {
  margin: 4px 4px 2px;
@@ -1537,6 +1529,17 @@ a.instagram:hover {
  font-size: 46px;
  line-height: 1;
 }
+
+.logo-white img {
+	width: 40%;
+}
+.ux-header img {
+	width: 70%;
+}
+.speaker1 {
+	width: 100%;
+}
+
 }
 @media (min-width: 980px) {
 }
@@ -1642,6 +1645,15 @@ a.instagram:hover {
 }
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
+
+.logo-white img {
+	width: 30%;
+}
+.ux-header img {
+	width: 40%;
+}
+
+
  .jumbotron h1 {
  font-size: 94px;
  margin: 10px 0 15px;
