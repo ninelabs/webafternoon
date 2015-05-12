@@ -439,7 +439,7 @@ nav select {
 	background: #ed145b;
 }
 #schedule {
-	background: #E7EBED;
+	background: #ffffff;
 }
 #workshops {
 	background: #F2BC47;
@@ -605,6 +605,9 @@ hr.divider-short {
 .hero-unit > h2 {
 	color: inherit;
 	font-size: 40px;
+}
+.hero-unit h3 {
+	font-weight: 400;
 }
 .hero-unit > h4 {
 	font-size: 18.5px;
@@ -984,7 +987,7 @@ a.instagram:hover {
 	width: 100%;
 	padding: 80px 0px;
 }
-.brunch h2 {
+.brunch h1 {
 	color: #fff;
 	text-align: center;
 }
@@ -992,6 +995,7 @@ a.instagram:hover {
 	color: #fff;
 	text-align: center;
 	font-weight: 300;
+	font-size: 18px;
 }
 
 /* Schedule Section */
@@ -1059,32 +1063,7 @@ a.instagram:hover {
 	-khtml-opacity: 0.5;
 	opacity: 0.5;
 }
-/* News Section */
-.news-items {
-	margin: 0;
-}
-.news-item {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background: #fff;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	-ms-border-radius: 6px;
-	-o-border-radius: 6px;
-	border-radius: 6px;
-	margin-bottom: 30px;
-}
-.news-item .news-date {
-	padding: 15px 0 0 15px;
-}
-.news-item .news-date .month, .news-item .news-date .day {
-	color: #8C8C8C;
-	font-size: 15px;
-	font-weight: bold;
-	line-height: 30px;
-	text-transform: uppercase;
-}
+
 /* Twitter Feed */
 .tweet {
 	margin-bottom: 25px;
@@ -1778,10 +1757,6 @@ a.instagram:hover {
 .hero-unit > h2 {
  font-size: 45px;
 }
-// .carouselslider {
-//  margin: 0 auto;
-//  width: 400px;
-// }
 .span12 .item-6 li, .span12 .item-5 li, .span12 .item-4 li, .span12 .item-3 li, .span12 .item-2 li, .span12 .item-1 li, .span6 .item-6 li, .span6 .item-5 li, .span6 .item-4 li, .span6 .item-3 li, .span6 .item-2 li, .span6 .item-1 li {
  width: 400px !important;
 }
