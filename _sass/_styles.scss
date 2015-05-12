@@ -456,7 +456,7 @@ nav select {
 	box-shadow: none;
 }
 #sponsors {
-	background: #E7EBED;
+	background: #ffffff;
 }
 #news {
 	background: #EF7247;
@@ -474,7 +474,7 @@ nav select {
 	padding: 60px 0;
 }
 #map {
-	background: #4C5D67;
+	background: #fff;
 	padding: 0;
 }
 footer {
@@ -1056,6 +1056,7 @@ a.instagram:hover {
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 	width: 70%;
+	margin-top: 20px;
 }
 .sponsor-logo:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
