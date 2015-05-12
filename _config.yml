@@ -1,10 +1,10 @@
 # Site settings
 title: Web Afternoon
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+tagline: For today, you’re the user.
+subheader: And the product is great conversations with people like you who want to design a better web.
+description: Let’s talk UX. We designed this event with you in mind. We dream in wireframes, too. And so do the five thought leaders waiting to mingle with you. Their talks are practical--real world tips and tricks you can put into action immediately. There’s no fluff. You’ll leave equipped and inspired to get back to doing what you do best.
+brunch: Want to get really up close and personal? Purchase a VIP pass to enjoy an exclusive brunch with your UX hero and get reserved seating for the afternoon of talks. There are only 9 seats at the table--and they're first come, first served--so buy your ticket now to make sure your name's on the list.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://webafternoon.com" # the base hostname & protocol for your site
 twitter_username: webafternoon
