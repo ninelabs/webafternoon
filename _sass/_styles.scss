@@ -1062,9 +1062,11 @@ a.instagram:hover {
 }
 /* Map-IMG */
 #map {
-	background:url(/images/backgrounds/hero-bkgd.jpg) center center no-repeat;
+	background:url(/images/map.jpg) center center no-repeat;
 	background-size: cover;
+	display: block;
 	height: 300px;
+	text-indent:-99999px;
 }
 
 /* Share Widget */
