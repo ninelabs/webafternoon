@@ -437,6 +437,7 @@ nav select {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
+	height: auto;
 }
 #sponsors {
 	background: #ffffff;
@@ -1068,7 +1069,12 @@ a.instagram:hover {
 	height: 300px;
 	text-indent:-99999px;
 }
-
+/* Sponsors */
+#sponsors h1 {
+	color: #2d2d2d;
+  	margin: 0px;
+  	padding-bottom: 15px;
+}
 /* Share Widget */
 .share-widget {
 	float: right;
@@ -1113,12 +1119,12 @@ a.instagram:hover {
 	width: 70%;
 	margin-top: 20px;
 }
-.sponsor-logo:hover {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	-moz-opacity: 0.5;
-	-khtml-opacity: 0.5;
-	opacity: 0.5;
-}
+// .sponsor-logo:hover {
+// 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+// 	-moz-opacity: 0.5;
+// 	-khtml-opacity: 0.5;
+// 	opacity: 0.5;
+// }
 
 /* Twitter Feed */
 .tweet {
