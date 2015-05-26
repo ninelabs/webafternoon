@@ -1610,11 +1610,27 @@ a.instagram:hover {
 .ux-header img {
 	width: 70%;
 }
+#about h1 {
+	font-size: 45px;
+}
+#speakers h1 {
+	font-size: 45px;
+}
 .speaker1 {
 	width: 100%;
 }
-
+.speaker-content {
+	padding: 0px 10px;
 }
+#brunch h1 {
+	font-size: 45px;
+	line-height: 1.0;
+}
+.content-width {
+	width: 85%;
+}
+}
+
 @media (min-width: 980px) {
 }
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
