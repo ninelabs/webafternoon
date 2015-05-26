@@ -1120,6 +1120,10 @@ a.instagram:hover {
 	font-size: 38px;
 	padding-top: 10px;
 }
+iframe {
+	padding-top: 40px;
+}
+
 /* Share Widget */
 .share-widget {
 	float: right;
@@ -1629,6 +1633,10 @@ a.instagram:hover {
 .content-width {
 	width: 85%;
 }
+iframe {
+	padding-top: 20px;
+}
+
 }
 
 @media (min-width: 980px) {
@@ -1642,6 +1650,7 @@ a.instagram:hover {
  font-size: 44px !important;
  line-height: 1;
 }
+
 }
 @media only screen and (min-width: 960px) and (max-width: 1025px) {
 
