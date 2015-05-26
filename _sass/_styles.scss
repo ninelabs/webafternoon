@@ -1129,11 +1129,14 @@ iframe {
 	padding-top: 40px;
 }
 
-.social-footer {
-}
-.social-footer i {
+i.social-footer {
 	color: #2d2d2d;
 	font-size: 20px;
+}
+i.fa {
+	float: left;
+	width: 100%;
+	color: #2d2d2d;
 }
 /* Share Widget */
 .share-widget {
