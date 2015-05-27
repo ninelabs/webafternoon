@@ -989,6 +989,13 @@ a.instagram:hover {
 .speaker1 img {
 	width: 100%;
 }
+i.fa-twitter {
+	float: left;
+	color: #fff;
+	font-size: 30px;
+	padding-top: 6px;
+	padding-left: 20px;
+}
 .span12 h1 {
 	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 600;
@@ -1000,7 +1007,6 @@ a.instagram:hover {
 .speaker1 h2 {
 	float: left;
 	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	width: 100%;
 	color: #ffffff;
   	font-weight: 600;
   	font-size: 32px;
@@ -1136,13 +1142,13 @@ i.social-footer {
 }
 i.fa-twitter-square {
 	color: #2d2d2d;
-	font-size: 25px;
-	padding: 3px;
+	font-size: 28px;
+	padding: 3px 3px 8px 0px;
 }
 i.fa-facebook-square {
 	color: #2d2d2d;
-	font-size: 25px;
-	padding: 3px;
+	font-size: 28px;
+	padding: 3px 0px 8px 3px;
 }
 /* Share Widget */
 .share-widget {
