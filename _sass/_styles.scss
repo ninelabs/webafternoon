@@ -49,11 +49,11 @@ sup {
 /* Buttons */
 .btn {
 	border: none;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	-ms-border-radius: 8px;
-	-o-border-radius: 8px;
-	border-radius: 8px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
 	background: #48A3A6;
 	color: white;
 	font-size: 16.5px;
@@ -208,7 +208,7 @@ sup {
 	box-shadow: 0 0 0;
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
-	background-color: #48A3A6;
+	background-color: #0b76f3;
 	color: #FFFFFF;
 }
 /* Forms */
@@ -316,7 +316,6 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 }
 #reg-btn:hover {
 	color: #fff;
-	background-color: #0f32f5;
 }
 
 .navbar .nav li {
@@ -1917,6 +1916,7 @@ iframe {
  @media only screen and (max-width: 459px) {
 .navbar .btn-navbar {
  margin: 18px 0 0 !important;
+ color: red;
 }
 .top-bar.alt .navbar .btn-navbar {
  margin: -40px 0 0 !important;
