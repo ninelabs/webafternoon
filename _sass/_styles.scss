@@ -984,6 +984,7 @@ a.instagram:hover {
   	width: 33.33%;
   	display: inline-block;
   	padding-top: 50px;
+  	height: 700px;
 }
 .speaker1 img {
 	width: 100%;
@@ -1128,15 +1129,20 @@ a.instagram:hover {
 iframe {
 	padding-top: 40px;
 }
-
-i.social-footer {
-	color: #2d2d2d;
-	font-size: 20px;
+.copyright {
+	padding-bottom: 15px;
 }
-i.fa {
-	float: left;
-	width: 100%;
+i.social-footer {
+}
+i.fa-twitter-square {
 	color: #2d2d2d;
+	font-size: 25px;
+	padding: 3px;
+}
+i.fa-facebook-square {
+	color: #2d2d2d;
+	font-size: 25px;
+	padding: 3px;
 }
 /* Share Widget */
 .share-widget {
