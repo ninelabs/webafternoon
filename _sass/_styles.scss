@@ -1111,6 +1111,36 @@ i.fa-twitter:hover {
   	margin: 0px;
   	padding-bottom: 25px;
 }
+.sponsor-logos {
+	width: 100%;
+	float: left;
+}
+.span4 img {
+	width: 35%;
+	padding-top: 30px;
+}
+.sponsor-btn {
+	margin-top: 85px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+button {
+	border: 3px solid #2d2d2d;
+	color: #2d2d2d;
+	background-color: #fff;
+	padding: 20px;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+button:hover {
+	border: 3px solid #0b76f3;
+	color: #fff;
+	background-color: #0b76f3;
+}
+
 /* Tickets */
 .ticket-regular {
 	width: 50%;
