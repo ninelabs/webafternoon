@@ -1644,9 +1644,14 @@ i.fa-facebook-square {
 
 .logo-white img {
 	width: 40%;
+	padding: 20px 0px 10px 0px;
 }
 .ux-header img {
 	width: 70%;
+}
+#intro h4 {
+	font-size: 24px;
+	padding: 0px;
 }
 #about h1 {
 	font-size: 45px;
@@ -1656,6 +1661,7 @@ i.fa-facebook-square {
 }
 .speaker1 {
 	width: 100%;
+	height: auto;
 }
 .speaker-content {
 	padding: 0px 10px;
