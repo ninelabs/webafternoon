@@ -1175,17 +1175,24 @@ iframe {
 .copyright {
 	padding-bottom: 15px;
 }
+.copyright a {
+	text-decoration: underline;
+}
+.copyright p {
+	padding-top: 0px;
+  	margin: 0px;
+}
 i.social-footer {
 }
 i.fa-twitter-square {
 	color: #2d2d2d;
 	font-size: 28px;
-	padding: 3px 3px 8px 0px;
+	padding: 3px 3px 10px 0px;
 }
 i.fa-facebook-square {
 	color: #2d2d2d;
 	font-size: 28px;
-	padding: 3px 0px 8px 3px;
+	padding: 3px 0px 10px 3px;
 }
 /* Share Widget */
 .share-widget {
