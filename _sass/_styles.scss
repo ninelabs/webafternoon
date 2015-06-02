@@ -1677,6 +1677,15 @@ i.fa-facebook-square {
 /* 767px */
 @media (max-width: 980px) {
 
+
+.sponsors-page-content {
+	float: left;
+}
+.sponsors-page-mobile {
+	width: 90%;
+	padding: 0px 10px;
+}
+
 // code of conduct
 .conduct-mobile {
 	width: 90%;
