@@ -1,0 +1,15 @@
+- name: Nine Labs
+  url: https://ninelabs.com
+  img: ninelabs-logo.png
+- name: MailChimp
+  url: http://www.mailchimp.com
+  img: mailchimp-logo.png
+- name: Atlanta Web Design Group
+  url: http://www.awdg.org
+  img: awdg-logo.png
+- name: Polygon
+  url: http://polygonatl.com
+  img: polygon-logo.png
+- name: Hypepotamus
+  url: http://www.hypepotamus.com
+  img: hype-logo.png

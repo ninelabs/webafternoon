@@ -634,7 +634,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 }
 .top-bar.alt .navbar .nav > li > a#reg-btn {
 	color: #ffffff;
-}	
+}
 
 .top-bar.alt .navbar .nav > li > a:hover {
 	color: #0b76f3;
@@ -657,11 +657,22 @@ nav select {
 	-o-background-size: cover;
 	background-size: cover;
 	color: white;
-	min-height: 300px;
-	height: 660px;
+	min-height: 340px;
+	height: 680px;
 	margin: 0 auto;
 	padding: 0;
 }
+.sponsor-text-links {
+  color:#ddd;
+  font-size:1.3em;
+  a:link {
+    color:#EF7247;
+    &:hover {
+      color:#fff;
+    }
+  }
+}
+
 #about {
 	padding: 75px 0;
 	// background:url(/images/backgrounds/about-bkgd.jpg) center center no-repeat;
