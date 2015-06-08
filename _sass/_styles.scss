@@ -739,6 +739,9 @@ footer img {
 	font-weight: 400;
 	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+// .row {
+// 	margin-left: 0px;
+// }
 
 /*  -----------------------------------------------------   /*
 	DIVIDERS, HEADERS & SUBHEADERS
@@ -1224,7 +1227,7 @@ a.instagram:hover {
 #about h1 {
 	font-weight: 600;
 	font-size: 52px;
-	text-align: left;
+	text-align: center;
 	margin: 0px;
 	padding-bottom: 10px;
 }
@@ -1251,7 +1254,7 @@ a.instagram:hover {
   	width: 33.33%;
   	display: inline-block;
   	padding-top: 50px;
-  	height: 775px;
+  	height: 825px;
 }
 .speaker1 img {
 	width: 100%;
@@ -1260,7 +1263,7 @@ i.fa-twitter {
 	float: left;
 	color: #fff;
 	font-size: 30px;
-	padding-top: 10px;
+	padding-top: 19px;
 	padding-left: 20px;
 }
 i.fa-twitter:hover {
@@ -1281,7 +1284,7 @@ i.fa-twitter:hover {
   	font-weight: 600;
   	font-size: 32px;
   	margin: 0px;
-  	padding: 7px 0px;
+  	padding: 20px 0px 10px 0px;
 }
 // .speaker1 h2:hover {
 // 	color: #6f0729;
@@ -1301,9 +1304,9 @@ i.fa-twitter:hover {
 	width: 90%;
 	font-size: 20px;
 	text-align: left;
-	padding-top: 10px;
+	padding-top: 12px;
 	color: #fff;
-	line-height: 1.4;
+	line-height: 30px;
 }
 /* Brunch Section -- bottom of speakers.html */
 #brunch {
@@ -1318,13 +1321,13 @@ i.fa-twitter:hover {
 	font-size: 52px;
 	color: #ffffff;
 	line-height: 1.2;
-  	text-align: left;
+  	text-align: center;
 }
 .brunch p {
 	color: #fff;
 	text-align: left;
 	font-size: 20px;
-	line-height: 1.4;
+	line-height: 30px;
 }
 
 /* Schedule Section */
@@ -1334,12 +1337,12 @@ i.fa-twitter:hover {
   	font-size: 48px;
   	margin: 0px;
   	padding-bottom: 25px;
-  	line-height: 1.0;
+  	line-height: 40px;
 }
 .span4 p {
 	text-align: left;
 	font-size: 20px;
-	line-height: 1.4;
+	line-height: 30px;
 }
 /* Venue */
 .venue-content h4 {
@@ -1362,6 +1365,11 @@ i.fa-twitter:hover {
 	text-indent:-99999px;
 }
 /* Sponsors Section */
+// .span4 {
+// 	width: 360px;
+// 	padding: 0px;
+// 	margin: 0px;
+// }
 .sponsor-logo {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	-moz-opacity: 1;
@@ -1371,7 +1379,7 @@ i.fa-twitter:hover {
 	-webkit-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-	width: 70%;
+	width: 100%;
 	margin-top: 20px;
 }
 #sponsors h1 {
@@ -1413,7 +1421,10 @@ button:hover {
 .ticket-regular {
 	width: 50%;
 	float: left;
-	border-right: 2px solid #fff;
+	// border-right: 2px solid #fff;
+}
+.ticket-vip {
+	border-left: 2px solid #fff;
 }
 .ticket-regular h1 {
 	font-size: 38px;
@@ -1423,6 +1434,10 @@ button:hover {
 	font-weight: 600;
 	font-size: 38px;
 	padding-top: 10px;
+}
+.ticket-regular p {
+	font-size: 20px;
+	line-height: 30px;
 }
 .ticket-vip {
 	width: 49%;
@@ -1436,6 +1451,10 @@ button:hover {
 	font-weight: 600;
 	font-size: 38px;
 	padding-top: 10px;
+}
+.ticket-vip p {
+	font-size: 20px;
+	line-height: 30px;
 }
 iframe {
 	padding-top: 40px;
@@ -1859,6 +1878,15 @@ i.fa-facebook-square {
 	padding: 1px 16px;
 	width: 100%;/*width: -moz-calc(100% - 30px);/* Firefox *//*width: -webkit-calc(100% - 30px);/* WebKit *//*width: -o-calc(100% - 30px);/* Opera *//*width: calc(100% - 30px);/* Standard */
 }
+.event-content h4 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.event-content p {
+	font-size: 20px;
+	line-height: 30px;
+}
 .event-content:before {
 	background: url("../images/tri_left.png") no-repeat scroll 0 0 transparent;
 	content: " ";
@@ -1869,10 +1897,10 @@ i.fa-facebook-square {
 	width: 8px;
 }
 .event-title h3 {
-	font-size: 22px;
+	font-size: 24px;
 	line-height: 40px;
 	font-weight: 600;
-	line-height: 1.1;
+	margin-bottom: 10px;
 }
 .event-title h3 span {
 	color: #999999;
@@ -2060,16 +2088,63 @@ i.fa-facebook-square {
 	width: 100%;
 	height: auto;
 }
+.speaker1 h2 {
+	font-size: 28px;
+}
 .speaker-content {
-	padding: 0px 10px;
+	// padding: 0px 30px;
 }
 #brunch h1 {
 	font-size: 45px;
-	line-height: 1.0;
+	line-height: 1.1;
 }
 .content-width {
-	width: 85%;
+	width: 100%;
 }
+.span12 {
+	padding: 0px 30px;
+}
+#brunch h1 {
+	padding-bottom: 25px;
+}
+.brunch-mobile h1 {
+	padding: 0px 30px;
+}
+.brunch-mobile p {
+	padding: 0px 30px;
+}
+.brunch-mobile {
+	width: 100%;
+}
+.span4 {
+	padding: 0px 30px 20px 30px;
+}
+.span4 h2 {
+	text-align: center;
+	line-height: 1.1;
+}
+.speaker-content{
+	padding: 0px 30px;
+}
+.speaker1 p {
+	width: 100%;
+}
+.event-title h3 {
+	font-size: 22px;
+  	line-height: 40px;
+  	font-weight: 600;
+}
+.ticket-regular {
+	width: 100%;
+	padding: 0px 0px 30px 0px;
+}
+.ticket-vip {
+	width: 100%;
+	border-left: none;
+	border-top: 2px solid #fff;
+	padding: 30px 0px 20px 0px;;
+}
+
 iframe {
 	padding-top: 20px;
 }
@@ -2287,7 +2362,7 @@ iframe {
  padding: 0 !important;
 }
  [class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
- padding: 0 10px;
+ // padding: 0 10px;
 }
 .event-items, .news-items {
  margin: 0 10px;
@@ -2346,9 +2421,12 @@ iframe {
  font-size: 13px;
 }
 .event-title h3 {
- font-size: 18px;
- text-transform: none;
+	font-size: 20px;
+  	line-height: 30px;
+  	font-weight: 600;
+  	margin-bottom: 5px;
 }
+
 .span12 .item-6 li, .span12 .item-5 li, .span12 .item-4 li, .span12 .item-3 li, .span12 .item-2 li, .span12 .item-1 li, .span6 .item-6 li, .span6 .item-5 li, .span6 .item-4 li, .span6 .item-3 li, .span6 .item-2 li, .span6 .item-1 li {
  width: 300px !important;
 }
