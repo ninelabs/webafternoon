@@ -1398,7 +1398,7 @@ i.fa-twitter:hover {
 .sponsor-btn {
 	margin-top: 85px;
 	float: left;
-	width: 100%;
+	width: 103%;
 	text-align: center;
 }
 button {
@@ -2128,6 +2128,18 @@ i.fa-facebook-square {
 }
 .speaker1 p {
 	width: 100%;
+}
+.timeline {
+	// padding: 0px 30px;
+}
+.time-box {
+	padding-left: 10px;
+}
+.timeline-icon {
+	display: none;
+}
+.timeline-content {
+	margin-left: 125px;
 }
 .event-title h3 {
 	font-size: 22px;
