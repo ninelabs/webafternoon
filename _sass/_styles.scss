@@ -1881,7 +1881,8 @@ i.fa-facebook-square {
 .event-content h4 {
 	font-size: 20px;
 	font-weight: 600;
-	margin-bottom: 5px;
+	padding-bottom: 25px;
+	line-height: 10px;
 }
 .event-content p {
 	font-size: 20px;
@@ -2128,6 +2129,10 @@ i.fa-facebook-square {
 }
 .speaker1 p {
 	width: 100%;
+}
+.event-content h4 {
+	line-height: 25px;
+	padding-bottom: 15px;
 }
 .timeline {
 	// padding: 0px 30px;
@@ -2437,9 +2442,9 @@ iframe {
 }
 .event-title h3 {
 	font-size: 20px;
-  	line-height: 30px;
+  	// line-height: 30px;
   	font-weight: 600;
-  	margin-bottom: 5px;
+  	margin-bottom: 0px
 }
 
 .span12 .item-6 li, .span12 .item-5 li, .span12 .item-4 li, .span12 .item-3 li, .span12 .item-2 li, .span12 .item-1 li, .span6 .item-6 li, .span6 .item-5 li, .span6 .item-4 li, .span6 .item-3 li, .span6 .item-2 li, .span6 .item-1 li {
