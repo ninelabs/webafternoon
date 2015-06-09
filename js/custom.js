@@ -5,6 +5,16 @@ $(document).ready(function () {
 
 	// Top Bar //
 	$('.top-bar nav').addClass('hidden');
+	$('.navbar.main-nav button').on('click', function() {
+		$('.navbar.main-nav nav.hidden .nav-collapse').removeClass('collapse');
+	});
+	$('.navbar.main-nav nav.hidden .nav-collapse ul li').on('click', function() {
+		if(!$('.navbar.main-nav button').hasClass('collapsed')) {
+			$('.navbar.main-nav button').addClass('collapsed');
+			$('.navbar.main-nav nav.hidden .nav-collapse').removeClass('in');
+			$('.navbar.main-nav nav.hidden .nav-collapse').attr('style', 'height: 0px');
+		}
+	});
 	$('.menu-link').on('click', function (
 		e) {
 		e.preventDefault();
