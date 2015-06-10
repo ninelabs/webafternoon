@@ -22,6 +22,12 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+<script>
+//weird loading message fix
+$(document).on("mobileinit", function() {
+  $.mobile.autoInitializePage = false;
+});
+</script>
 <script type="text/javascript" src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
@@ -30,4 +36,3 @@
 <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
 <script type="text/javascript" src="js/jquery.nav.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
-
