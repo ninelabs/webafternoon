@@ -1,12 +1,8 @@
 @charset "utf-8";
-/* Eventify, Responsive HTML5 Event Template */
-/* CSS Document */
-/* Version 1.0 - Mon, 25 Nov 2013 15:25:52 -0600 */
 
-/*  -----------------------------------------------------   /*
-	GENERAL
-/*  -----------------------------------------------------   /*
-/**/
+/////////////////////////////////////////////////////
+// GENERAL
+
 body {
 	margin: 0;
 	line-height: 24px;
@@ -651,14 +647,15 @@ nav select {
 
 /* Sections */
 #intro {
-	background:url(/images/backgrounds/hero-bkgd.jpg) center center no-repeat fixed;
+	background-image: url(/images/backgrounds/hero-bkgd.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeatl;
+  background-position: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	color: white;
-	min-height: 340px;
-	height: 680px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -1089,8 +1086,7 @@ a.instagram:hover {
 
 /* Intro Page Jumbotron */
 .jumbotron {
-	padding-top: 150px;
-	height: 400px;
+	padding: 40px;
 }
 .jumbotron > div.span12 {
 	display: inline-block;
@@ -1219,7 +1215,6 @@ a.instagram:hover {
 	font-weight: 500;
 	font-size: 38px;
 	text-align: center;
-	padding-top: 50px;
 }
 /* About Section */
 
