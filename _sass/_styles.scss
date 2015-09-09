@@ -1,12 +1,8 @@
 @charset "utf-8";
-/* Eventify, Responsive HTML5 Event Template */
-/* CSS Document */
-/* Version 1.0 - Mon, 25 Nov 2013 15:25:52 -0600 */
 
-/*  -----------------------------------------------------   /*
-	GENERAL
-/*  -----------------------------------------------------   /*
-/**/
+/////////////////////////////////////////////////////
+// GENERAL
+
 body {
 	margin: 0;
 	line-height: 24px;
@@ -45,6 +41,37 @@ ul {
 sup {
 	padding: 0 0 0 1px;
 	text-transform: none;
+}
+
+// FORM
+#get-notified {
+	padding: 20px 10px;
+}
+#get-notified h2 {
+	font-size: 38px;
+	font-weight: 500;
+}
+#get-notified form {
+	width: 40%;
+	margin: 0 auto;
+	padding: 10px 0px;
+	// background-color: #000;
+}
+#get-notified input {
+	border-radius: 0px;
+	width: 90%;
+	height: 40px;
+}
+.infusion-submit {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.infusion-submit .btn {
+	background-color: #ed145b;
+}
+.infusion-submit .btn:hover {
+	background-color: #2d2d2d;
 }
 
 // sponsors-page table content
@@ -468,18 +495,18 @@ table th[class*="col-"] {
 }
 /* Forms */
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-	background-color: #D3DCE0;
-	border: 2px solid #D3DCE0;
+	background-color: #f3f3f3;
+	border: 1px solid #D3DCE0;
 	box-shadow: none;
 }
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-	border-radius: 8px;
+	// border-radius: 8px;
 	color: #4C5D67;
 	font-family: 'open sans';
 	font-size: 16px;
 	font-weight: 100;
 	line-height: 24px;
-	padding: 6px 8px;
+	// padding: 6px 8px;
 }
 .input-block-level {
 	min-height: 40px;
@@ -651,14 +678,15 @@ nav select {
 
 /* Sections */
 #intro {
-	background:url(/images/backgrounds/hero-bkgd.jpg) center center no-repeat fixed;
+	background-image: url(/images/backgrounds/hero-bkgd.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeatl;
+  background-position: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	color: white;
-	min-height: 340px;
-	height: 680px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -1089,8 +1117,7 @@ a.instagram:hover {
 
 /* Intro Page Jumbotron */
 .jumbotron {
-	padding-top: 150px;
-	height: 400px;
+	padding: 40px;
 }
 .jumbotron > div.span12 {
 	display: inline-block;
@@ -1219,7 +1246,6 @@ a.instagram:hover {
 	font-weight: 500;
 	font-size: 38px;
 	text-align: center;
-	padding-top: 50px;
 }
 /* About Section */
 
@@ -2179,6 +2205,9 @@ iframe {
 @media (min-width: 980px) {
 }
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
+	#get-notified form {
+	width: 50%;
+}
  .jumbotron h1 {
  font-size: 94px !important;
  margin: 10px 0 15px;
@@ -2282,6 +2311,10 @@ iframe {
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
 
+#get-notified form {
+	width: 70%;
+}
+
 .logo-white img {
 	width: 30%;
 }
@@ -2383,6 +2416,17 @@ iframe {
 
 /* 767px */
 @media (max-width: 767px) {
+
+#get-notified form {
+	width: 90%;
+}
+#get-notified h2 {
+	font-size: 32px;
+}
+.infusion-submit {
+	width: 100%;
+}
+
  body {
  padding: 0 !important;
 }
