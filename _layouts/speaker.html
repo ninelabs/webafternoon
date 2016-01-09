@@ -1,0 +1,47 @@
+---
+layout: minimal
+type: speaker
+---
+
+<div class="container">
+<section id="speaker-bio">
+
+  <div class="speaker-page">
+    <div class="row">
+    <article class="six columns speaker">
+    <aside class="speaker-meta meta">
+      <div class="speakerinfo">
+        <img src="{{ page.photo}}" alt="{{ page.title }}">
+        <h3>{{ page.title }}</h3>
+        <div class="social sp">
+          {% if page.twitter %}<a href="{{ page.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>{% endif %}
+            {% if page.facebook %}<a href="{{ page.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>{% endif %}
+            {% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>{% endif %}
+            {% if page.instagram %}<a href="{{ page.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a>{% endif %}
+            {% if page.github %}<a href="{{ page.github }}" target="_blank"><i class="fa fa-github"></i></a>{% endif %}
+            {% if page.dribbble %}<a href="{{ page.dribbble }}" target="_blank"><i class="fa fa-dribbble"></i></a>{% endif %}
+            {% if page.website %}<a href="{{ page.website }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}
+        </div>
+      </div>
+    </aside>
+  </article>
+  <article class="six columns speaker">
+    <div class="speaker-info">
+      <div class="speaker-bio">
+        {{ page.bio | markdownify }}
+      </div>
+      </div>
+    </div>
+    </div>
+    </article>
+  <article class="twelve columns subbio">
+    <!-- <h5>{{ page.talktitle }}</h5> -->
+    <p>{{ page.biotwo }}</p>
+    <p>{{ page.biothree }}</p>
+    <h6><a href="http://webafternoon.com/#tickets">Meet with {{page.firstname}}</a></h6>
+    <p><a href="/">&laquo; Home</a></p>
+    </article>
+    </div>
+  </div>
+</section>
+</div>

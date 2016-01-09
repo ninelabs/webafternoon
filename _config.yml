@@ -19,3 +19,9 @@ twitter_username: webafternoon
 
 # Build settings
 markdown: kramdown
+
+page_gen:
+  - data: 'speakers'
+    template: 'speaker'
+    name: 'name'
+    dir: ''
