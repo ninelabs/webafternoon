@@ -1,135 +1,33 @@
-<section id="speakers">
-  <div class="container">
+<div class="container">
+
+  <section class="row" id="speakers">
+    {% for speaker in site.data.speakers %}
+    <article class="six columns speaker">
+
+      <a href="{{ speaker.name | datapage_url: '' }}"><img src="{{ speaker.photo }}" alt="{{ speaker.name }}" /></a>
+      <div class="speakerinfo">
+        <a href="{{ speaker.name | datapage_url: '' }}"><h3>{{ speaker.name }}</h3></a>
+        <div class="social">
+          {% if speaker.twitter %}<a href="{{ page.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>{% endif %}
+          {% if speaker.facebook %}<a href="{{ page.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>{% endif %}
+          {% if speaker.linkedin %}<a href="{{ page.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>{% endif %}
+          {% if speaker.instagram %}<a href="{{ page.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a>{% endif %}
+          {% if speaker.github %}<a href="{{ page.github }}" target="_blank"><i class="fa fa-github"></i></a>{% endif %}
+          {% if speaker.dribbble %}<a href="{{ page.dribbble }}" target="_blank"><i class="fa fa-dribbble"></i></a>{% endif %}
+          {% if speaker.website %}<a href="{{ page.website }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+
+  <section id="brunch">
     <div class="row">
-      <div class="span12">
-        <div class="module-header speakers-header">
-          <h4>Speakers</h4>
-        </div>
-        <!-- end module-header -->
-      </div>
-      <div class="span12 content-width hero-unit text-center white">
-        <h1>Learn From These Great Folks</h1>
-      </div>
-      <!-- end hero-unit -->
-      <div class="speakers">
-        <div class="speaker1">
-          <img src="images/jacklyn.jpg">
-          <div class="speaker-content">
-            <a href="http://playfulpixel.com/"><h2>Jacklyn Burgan</h2></a>
-            <a href=" https://twitter.com/playfulpixel"><i class="fa fa-twitter"></i></a>
-            <h3>UX Strategist</h3>
-            <h3></h3>
-            <p>Jacklyn is a user experience researcher and organizer of Ladies That UX Atlanta. She’s passionate about usability, empathetic design, and collaboration. Jacklyn is a firm believer that educating the future leaders is just as important as eating your greens; she advocates engineering and user experience career paths to young women. In her free time, you can find her on the competitive dance floor, or walking the Beltline with her dog.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-
-        <div class="speaker1">
-          <img src="images/aarron-walter.jpg">
-          <div class="speaker-content">
-            <a href="http://aarronwalter.com/"><h2>Aarron Walter</h2></a>
-            <a href=" https://twitter.com/aarron"><i class="fa fa-twitter"></i></a>
-            <h3>Director of MailChimp UX</h3>
-            <h3>Author of Designing for Emotion</h3>
-            <p>Aarron is the General Manager of New Products at MailChimp and the author of Designing for Emotion from A Book Apart. Aarron has taught design at colleges in the US and Europe for nearly a decade. He's also a frequent speaker at conferences around the world and his design guidance has helped the White House, the US Department of State, and dozens of startups and venture capitalists.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-
-        <div class="speaker1">
-          <img src="images/yakka.jpg">
-          <div class="speaker-content">
-            <a href="http://www.ilivedesign.com/"><h2>Yakka Murphy</h2></a>
-            <a href="https://twitter.com/yakone"><i class="fa fa-twitter"></i></a>
-            <h3>Art Director, Digital Experience</h3>
-            <h3>The Weather Channel</h3>
-            <p>Yakka Murphy specializes in designing consistent and easy to use experiences across multiscreen web and app ecosystems. As Art Director, Digital Experience at The Weather Company, she works with a passionate team of designers, developers and product managers on well-known brands. Previously, Yakka worked as a graphic designer, front end web developer and computer animator.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-
-        <div class="speaker1">
-          <img src="images/joel.jpg">
-          <div class="speaker-content">
-            <a href="http://www.bkl.mn/"><h2>Joel Beukelman</h2></a>
-            <a href="https://twitter.com/_bklmn"><i class="fa fa-twitter"></i></a>
-            <h3>UX Designer on Android</h3>
-            <h3>Google</h3>
-            <p>Joel is a UX Designer on Android and a SoCal native. He hosts The Balance Podcast. Previous employers include Netflix and AppStack. In addition to design, he loves craft beer and tattoos.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-
-         <div class="speaker1">
-          <img src="images/lea.jpg">
-          <div class="speaker-content">
-            <a href="http://abrightumbrella.com"><h2>Lea Alcantara</h2></a>
-            <a href="https://twitter.com/lealea"><i class="fa fa-twitter"></i></a>
-            <h3>Lead Designer</h3>
-            <h3>Bright Umbrella</h3>
-            <p>Lea Alcantara is the lead designer for Bright Umbrella, where she helps paint an accurate and attractive reflection of her clients’ brands through color, type, and code. She speaks at conferences like SXSW, ConvergeSE and Web Afternoon, and co-hosts CTRL+CLICK CAST, one of .net Magazine’s Top 10 podcasts of 2011, 2014 and 2015. She also loves Disney show tunes, the Food Network, and kittens.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-        
-        <div class="speaker1">
-          <img src="images/adam.jpg">
-          <div class="speaker-content">
-            <a href="http://adamconnor.com/"><h2>Adam Connor</h2></a>
-            <a href=" https://twitter.com/adamconnor"><i class="fa fa-twitter"></i></a>
-            <h3>VP Organizational Design & Training</h3>
-            <h3> Mad*Pow</h3>
-            <p>Adam is obsessed with storytelling. As a designer at Mad*Pow, Adam uses his interaction design experience and background in CS, film, and animation to create effective and easy-to-use digital products and services.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-
-        <div class="speaker1">
-          <img src="images/doc.jpg">
-          <div class="speaker-content">
-             <a href="http://www.becomingpossible.com/"><h2>Doc Waller</h2></a>
-             <a href="https://twitter.com/docwaller"><i class="fa fa-twitter"></i></a>
-            <h3>Inspiration Architect</h3>
-            <h3>Becoming Possible</h3>
-            <p>Doc Waller is an award-winning stage performer turned creative entrepreneur with inspiration to spare! He calls himself an Inspiration Architect. Every ounce of his work is about inspiring people and creating moments that provide them with the ambition to explore their possibility.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-
-         <div class="speaker1">
-          <img src="images/zpousman.jpg">
-          <div class="speaker-content">
-            <a href="http://thinky.org/"><h2>Zach Pousman</h2></a>
-            <a href="https://twitter.com/thinky"><i class="fa fa-twitter"></i></a>
-            <h3>Digital Product Designer and Strategist</h3>
-            <h3>Consultant to the Stars</h3>
-            <p>Zach Pousman is a digital product designer and strategist with over 15 years of experience delivering user-centric digital experiences. His passion is to understand the rhythms and routines of daily life and find ways for companies to intersect with and improve upon them in ways that delight customers and exceed business goals. Zach takes an ethnographic approach to understanding customers and their behaviors, blending both qualitative and quantitative insight.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-
-        <div class="speaker1">
-          <img src="images/stephanie.jpg">
-          <div class="speaker-content">
-            <a href="https://plus.google.com/+StephanieBrubaker/posts"><h2>Stephanie Brubaker</h2></a>
-            <a href="https://twitter.com/sjbrubaker"><i class="fa fa-twitter"></i></a>
-            <h3>Software Engineer</h3>
-            <h3>FullStory</h3>
-            <p>Stephanie Brubaker is a Software Engineer at FullStory, a Customer Success platform that gives UX designers a visceral sense of how real users experience their creations. With a primary focus on frontend web development, she works closely with the FullStory design team to turn their brilliant designs into magical UIs. Stephanie is also a former Google Engineer, though she neither possesses a neckbeard nor has ever played D&D. She does, however, think soldering is fun and relaxing.</p>
-          </div>
-        </div> <!-- end speaker 1   -->
-  
-       
-         
-
-      </div> <!-- end speakers -->
-
-
-    </div>
-    <!-- end row -->
-  </div>
-  <!-- end container -->
-</section>
-
-<section id="brunch">
-  <div class="container">
-    <div class="row">    
       <div class="brunch brunch-mobile content-width">
-          <h1>Want to get really up<br>close and personal?</h1>
-          <p>Purchase a VIP pass to enjoy an exclusive brunch with your UX hero and get reserved seating for the afternoon of talks. There are only 5 seats at each of the five tables--and they're first come, first served--so buy your ticket now to make sure your name's on the list.</p>
-        </div>
+        <h2>Want to get really up<br>close and personal?</h2>
+        <p>Purchase a <a href="/register/">VIP Ticket</a> to enjoy an exclusive brunch with your design hero and get reserved seating for the afternoon of talks. There are only 5 seats at each of the five tables--and they're first come, first served--so buy your ticket now to make sure your name's on the list.</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
+</div>

@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
 
   {% include head.html %}
 
-  <body>
+  <body id="{{ page.type }}">
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {{ content }}
 
     {% include footer.html %}
 
   </body>
+
 </html>

@@ -1,0 +1,64 @@
+header.smallhead {
+  margin-bottom: 5em;
+  h1{
+    font-size: 2em;
+    font-family: futura-pt-1;
+  }
+  h2{
+    font-size: 2em;
+    font-family: futura-pt-2;
+  }
+  .head_divider{
+    font-family: futura-pt-1;
+    font-size: 3em;
+  }
+  .leader {
+    text-transform: uppercase;
+    margin-bottom: 3em;
+    font-size: 1.25em;
+    @include breakpoint(xs){
+      font-size: 1em;
+    }
+    span.detail {
+     display: inline-block;
+     @include breakpoint(xs){
+       display: block;
+     }
+    }
+    span.separator {
+      color:#C704F6;
+      display: inline-block;
+      padding: inherit 4em;
+      @include breakpoint(xs){
+        display: none;
+      }
+    }
+  }
+}
+
+.register-button {
+  background: #fff;
+  border: 6px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #0865F1 0%, #C704F6 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
+  border-image: linear-gradient(to right, #0865F1 0%, #C704F6 100%);
+  border-image-slice: 1;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 3em;
+  padding: 10px 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  @include breakpoint(xs){
+    font-size: 1em;
+  }
+  &:hover{
+    background-color: white;
+    background: -webkit-linear-gradient(left, #0865F1 , #C704F6);
+    background: -o-linear-gradient(right, #0865F1, #C704F6);
+    background: linear-gradient(to right, #0865F1 , #C704F6);
+    background: -moz-linear-gradient(right, #0865F1, #C704F6);
+    color: #fff;
+  }
+}
