@@ -1,1 +1,2 @@
-web: bundle exec start -R config.ru -e $RACK_ENV -p $PORT
+web: jekyll server -P $PORT --host 0.0.0.0
+
