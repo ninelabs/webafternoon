@@ -4,9 +4,9 @@
     {% for speaker in site.data.speakers %}
     <article class="six columns speaker">
 
-      <a href="{{ speaker.name | datapage_url: '' }}"><img src="{{ speaker.photo }}" alt="{{ speaker.name }}" /></a>
+      <a href="{{ speaker.slug }}.html"><img src="{{ speaker.photo }}" alt="{{ speaker.name }}" /></a>
       <div class="speakerinfo">
-        <a href="{{ speaker.name | datapage_url: '' }}"><h3>{{ speaker.name }}</h3></a>
+        <a href="{{ speaker.slug }}.html"><h3>{{ speaker.name }}</h3></a>
         <div class="social">
           {% if speaker.twitter %}<a href="{{ page.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>{% endif %}
           {% if speaker.facebook %}<a href="{{ page.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>{% endif %}
