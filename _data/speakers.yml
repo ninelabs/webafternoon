@@ -1,5 +1,6 @@
 - name: Meg Lewis
   firstname: Meg
+  slug: meg-lewis
   photo: /img/meglewis.png
   slug: meg-lewis.html
   talktitle: Talk Title Here
@@ -19,6 +20,7 @@
 
 - name: Becky Simpson
   firstname: Becky
+  slug: becky-simpson
   photo: /img/beckysimpson.png
   talktitle: Talk Title Here
   company:
@@ -38,6 +40,7 @@
 
 - name: Jason Pamental
   firstname: Jason
+  slug: jason-pamental
   photo: /img/jasonpamental.jpeg
   talktitle: Talk Title Here
   company: Fresh Tilled Soil
@@ -57,6 +60,7 @@
 
 - name: Hannah Donovan
   firstname: Hannah
+  slug: hannah-donovan.html
   photo: /img/hannahdonovan.png
   talktitle: Talk Title Here
   company: Drip
@@ -75,6 +79,7 @@
 
 - name: Tara Victoria
   firstname: Tara
+  slug: tara-victoria
   photo: /img/taravictoria.png
   talktitle: Talk Title Here
   company: Darn Gooodod
