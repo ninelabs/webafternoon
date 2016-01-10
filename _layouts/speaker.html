@@ -20,6 +20,9 @@ type: speaker
               {% if page.dribbble %}<a href="{{ page.dribbble }}" target="_blank"><i class="fa fa-dribbble"></i></a>{% endif %}
               {% if page.website %}<a href="{{ page.website }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}
             </div>
+            {% if page.job-title and page.company and page.company-website %}
+            <h4 class="speaker-title-company">{{ page.job-title }} &middot; <a href="{{ page.company-website }}">{{ page.company }}</a></h4>
+            {% endif %}
           </div>
           <div class="vip-cta">
             <h4>Have Brunch with {{page.firstname}}!</h4>
