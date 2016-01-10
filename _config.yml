@@ -19,6 +19,7 @@ twitter_username: webafternoon
 
 # Build settings
 markdown: kramdown
+exclude: [vendor]
 
 page_gen:
   - data: 'speakers'
