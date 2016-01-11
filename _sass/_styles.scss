@@ -170,19 +170,34 @@ header.masthead {
   }
   .speakerinfo {
     margin-top: -1em;
+    a h3 {
+      background-color: #000;
+      border: 10px solid #000;
+      color: #fff;
+      font-weight: bolder;
+      transition: all 0.5s ease;
+    }
+    a:hover h3 {
+      border-color: #C704F6;
+      transition: all 0.5s ease;
+    }
     .social {
       float:right;
       padding:15px 0 0 0;
-      font-size:1em;
-      a {
-        transition: color 0.8s ease;
-        color: #000000;
-        &:hover{
-          transition: color 0.8s ease;
-          color: #C704F6;
-        }
+      font-size:1.4em;
+    }
+    a {
+      transition: color 0.5s ease;
+      color: #000000;
+      &:hover{
+        transition: color 0.5s ease;
+        color: #C704F6;
       }
     }
+  }
+  .speaker-title-company {
+    font-size: 1.2em;
+    margin-top: .5em;
   }
   .biotext{
     font-weight: 100;
