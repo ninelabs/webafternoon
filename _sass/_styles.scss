@@ -120,9 +120,21 @@ header.masthead {
 }
 
 .what-to-expect {
+  margin-bottom: 2em;
   p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
+  h4 {
+    margin-bottom: 0.5em;
+  }
+  ul.topics {
+    margin:0 0 0 2em;
+    li {
+      font-size: 1.5em;
+      list-style-type: square;
+    }
+  }
+
 }
 
 
