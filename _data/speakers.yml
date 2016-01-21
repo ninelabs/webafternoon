@@ -1,117 +1,141 @@
-- name: Meg Lewis
-  firstname: Meg
-  slug: meg-lewis
-  photo: /img/meglewis.png
-  slug: meg-lewis
-  job-title: Founder
-  company: Ghostly Ferns
-  company-website: http://ghostlyferns.com/
-  twitter: https://twitter.com/darngooood
-  linkedin:
-  github:
-  instagram: https://www.instagram.com/darngooood/
-  website: http://ghostlyferns.com/
-  dribble: http://dribbble.com/darngooood
-  bio: |
-    Meg is the leader of what is quite possibly the coolest creative collective in Brooklyn, [Ghostly Ferns](http://ghostlyferns.com/). With an all-star team of designers, illustrators, and interactive developers, she's building some of the coolest designs on the web today.
+- speakers:
+  - name: Meg Lewis
+    firstname: Meg
+    slug: meg-lewis
+    photo: /img/meglewis.png
+    slug: meg-lewis
+    job-title: Founder
+    company: Ghostly Ferns
+    company-website: http://ghostlyferns.com/
+    twitter: https://twitter.com/darngooood
+    linkedin:
+    github:
+    instagram: https://www.instagram.com/darngooood/
+    website: http://ghostlyferns.com/
+    dribble: http://dribbble.com/darngooood
+    bio: |
+      Meg is the leader of what is quite possibly the coolest creative collective in Brooklyn, [Ghostly Ferns](http://ghostlyferns.com/). With an all-star team of designers, illustrators, and interactive developers, she's building some of the coolest designs on the web today.
 
-    You've seen her work all over your favorite galleries and websites; now she’s coming to teach us how &mdash; and why &mdash; she does it. Meg is unashamed in her joy and excitement for her work, and you can be sure that she’s going to bring that same energy to the stage at Web Afternoon.
+      You've seen her work all over your favorite galleries and websites; now she’s coming to teach us how &mdash; and why &mdash; she does it. Meg is unashamed in her joy and excitement for her work, and you can be sure that she’s going to bring that same energy to the stage at Web Afternoon.
 
-  talk-title: Designing for Happy Companies
-  talk-description: |
-    Or&hellip; _How Getting Weird and Finding a Purpose Created a Design Mission_ &mdash; Meg Lewis, the world’s happiest person, shares her hilarious life journey and how it led to Meg finding her purpose. She will discuss the benefits of leveraging your quirks to create a career mission. You’ll laugh and cry your way to a happy ending during this unconventional, fun talk!
-
-
-- name: Becky Simpson
-  firstname: Becky
-  slug: becky-simpson
-  photo: /img/beckysimpson.png
-  job-title: Lead Designer
-  company: Chipper Things
-  company-website: http://chipperthings.com/
-  twitter: https://twitter.com/beckymsimps
-  linkedin:
-  github:
-  instagram: https://www.instagram.com/beckymsimps/
-  website: http://chipperthings.com/
-  dribble:
-  bio: |
-    Only one person will ever wear the title of Adobe’s first creative resident, and her name is Becky Simpson, lettering and illustration stylist extraordinaire. Becky is an illustrator, author, and graphic designer based in Austin, Texas, whose work reflects her passion for connection, process, and play. After authoring and illustrating her first book, I’d Rather Be Short, Becky has spent the last year at Adobe, building an impressive body of work while showing off what today’s hottest tools and processes can really do to impact design. The focus of her work Adobe is on the creative process of designing a sustainable illustration business, and in all of her spare time she’s been writing her second book, The Roommate Book.
-
-    Becky’s work is regularly copied, but rarely ignored. She's at the forefront of the lettering and illustration styles that are taking brands by storm. She's been featured in Zooey Deschanels' Hello Giggles, The Great Discontent, Parade Magazine, Buzzfeed, Man Repeller, and countless other publications including Design Milk, Refinery 29, Lifehacker, 99U, The Five on Fox News, Adobe Create (Book Process), Adobe Create (Lessons Learned from 100 Day Project), Houston Chronicle, Quartz, KWTX, Cedar Rapids Gazette, Waco Trib, Camille Styles, The Tangential, Jessica and Krystal, The Girls with Glasses, Anthology, B is for Bonnie, Adobe Creative Cloud (Speaking at MAX).
-
-  talk-title: Celebrate the Process of Getting Things Done
-  talk-description: |
-    We live in a world of information overload. We’re constantly forced to curate our lives because we know that if we don’t, someone else will. Those of us who have found our home in creative industries are also learning how to hone our skills, manage our time, and coddle the vision that got us here in the first place.
-
-    So, with all of these distractions and opportunities, how do you force yourself to stay focused and just get the work done? Becky will talk about how she wrote and illustrated two books, created a backlog of art for 100 days, and is building a product company based on her illustrations. She will share her *six game-changing lessons* that anyone can use to prioritize focus, hunker down, and get started creating.
-
-- name: Jason Pamental
-  firstname: Jason
-  slug: jason-pamental
-  photo: /img/jasonpamental.jpeg
-  job-title: Director of Design
-  company: Fresh Tilled Soil
-  company-website: http://www.freshtilledsoil.com/
-  twitter: http://www.twitter.com/jpamental
-  linkedin:
-  github:
-  instagram: https://instagram.com/jpamental
-  website:
-  dribble: https://dribbble.com/jpamental
-  bio: |
-    After over 20 years in the industry, you could say Jason Pamental knows a thing or two about how to build a successful design career. Along with serving as Director of Design &amp; Product Experience at [Fresh Tilled Soil](http://www.freshtilledsoil.com/), a design house just outside of Boston, MA, Jason is also the author of [Responsive Typography](http://shop.oreilly.com/product/0636920034063.do) (from O’Reilly), and the host of [Talking Drupal](http://www.talkingdrupal.com/), a weekly podcast focused on all things Drupal and eCommerce.
-
-    Self described as a web & typography nerd who specializes in being a generalist, Jason has an impressive portfolio of work that is truly in a league of its own. His role at FTS involves leading client workshops, defining design processes, and serving as a day-to-day touchpoint and ‘block-remover’ for project teams. He has led groundbreaking responsive redesigns for the likes of Yale, the NFL, and numerous Fortune 500 companies.
-
-    Jason is a designer who is truly at the forefront of what’s next in web design and typography, and the opportunity to learn from him about his processes and pattern of thinking can’t be missed. He’s excited to speak at Web Afternoon - Design Edition, and to encourage fellow designers on toward excellence in all they do.
-  talk-title:
-  talk-description:
-
-- name: Hannah Donovan
-  firstname: Hannah
-  slug: hannah-donovan
-  photo: /img/hannahdonovan.png
-  job-title: Product Designer
-  company: Drip
-  company-website: https://drip.com/
-  twitter: https://twitter.com/han
-  linkedin:
-  github:
-  instagram: https://www.instagram.com/han/
-  website: http://blog.hannahdonovan.com/
-  dribble: https://dribbble.com/han
-  bio: |
-    Do you love Spotify or Apple Music? If so, you have Hannah Donovan to thank for your virtually limitless supply of music streaming. Hannah started with Last.fm in 2006 when music streaming and discovery were in their infancy, where she ultimately led a team to create the first compelling user experience for music on the web. From her time running her own startup at This Is My Jam, to building Last.fm, to working in MTV's product incubator, and now building Drip, she's been there, done that, and she has the resume to prove it.
-
-    Hannah is currently the Product Designer at Drip, “a new kind of fan club for music and culture.” She is also a well-known speaker who lives at the intersection of big data, big communities, human curation, and the design that ties it all together. She's been working with discovery and curation since her time leading the design team at Last.fm in 2006. Throughout her career, she's been a part of creating cutting edge interfaces that have gone on to influence entire sections of the app store.
-
-    Hannah will be sharing real-world tips and case studies to help you understand how to design for content, both for user-generated and user-curated product experience. Her real-world tips and battle stories are not to be missed.
-  talk-title: Souls & Machines&colon; Designing the Future of Content
-  talk-description: |
-    Not too long ago, it seemed like big data and collaborative filtering were going to solve our desires for discovery and inspiration. At the same time, platforms dedicated to new methods of self expression – music, writing, video, etc. – have matured, and their new forms of content have become mainstays of our culture.
-
-    Today, content companies are adapting to become digital products, and tech companies are learning to make content. How does a product designer navigate this changing landscape? What are the answers to questions like “humans vs. computers,” “pro vs. user-generated content,” and “opinion vs. democracy?” These questions and more will be answered through case studies, experiments, and (of course) stories.       Come to learn, stay for the fun!
+    talk-title: Designing for Happy Companies
+    talk-description: |
+      Or&hellip; _How Getting Weird and Finding a Purpose Created a Design Mission_ &mdash; Meg Lewis, the world’s happiest person, shares her hilarious life journey and how it led to Meg finding her purpose. She will discuss the benefits of leveraging your quirks to create a career mission. You’ll laugh and cry your way to a happy ending during this unconventional, fun talk!
 
 
+  - name: Becky Simpson
+    firstname: Becky
+    slug: becky-simpson
+    photo: /img/beckysimpson.png
+    job-title: Lead Designer
+    company: Chipper Things
+    company-website: http://chipperthings.com/
+    twitter: https://twitter.com/beckymsimps
+    linkedin:
+    github:
+    instagram: https://www.instagram.com/beckymsimps/
+    website: http://chipperthings.com/
+    dribble:
+    bio: |
+      Only one person will ever wear the title of Adobe’s first creative resident, and her name is Becky Simpson, lettering and illustration stylist extraordinaire. Becky is an illustrator, author, and graphic designer based in Austin, Texas, whose work reflects her passion for connection, process, and play. After authoring and illustrating her first book, I’d Rather Be Short, Becky has spent the last year at Adobe, building an impressive body of work while showing off what today’s hottest tools and processes can really do to impact design. The focus of her work Adobe is on the creative process of designing a sustainable illustration business, and in all of her spare time she’s been writing her second book, The Roommate Book.
 
-- name: Tara Victoria
-  firstname: Tara
-  slug: tara-victoria
-  photo: /img/taravictoria.png
-  job-title: Founder
-  company: Hatch &amp; Harbour
-  company-website: http://www.hatchandharbour.com/
-  twitter: https://twitter.com/taravictorial
-  linkedin:
-  github:
-  instagram: https://www.instagram.com/taravictorial/
-  website: http://www.taravictoria.com/
-  dribble: https://dribbble.com/TaraVictoria
-  bio: |
-    If you’re building your own design studio, Tara Victoria is someone you’ll want to pay close attention to. As a graphic designer, she’s run the typical route -- graduate school, freelance, big agency work, small agency work -- ultimately to realize that where she really wanted to be was at home, running her own design shop and working for herself. Tara is the founder of [Hatch & Harbour Design Studio](http://www.hatchandharbour.com/) in Calgary, Alberta, Canada, where she specializes in branding and print media as she works with small businesses that have a big passion to create lasting and meaningful brands. Tara is also the author of a widely-read blog that focuses on design and fitness, two of Tara’s favorite things.
+      Becky’s work is regularly copied, but rarely ignored. She's at the forefront of the lettering and illustration styles that are taking brands by storm. She's been featured in Zooey Deschanels' Hello Giggles, The Great Discontent, Parade Magazine, Buzzfeed, Man Repeller, and countless other publications including Design Milk, Refinery 29, Lifehacker, 99U, The Five on Fox News, Adobe Create (Book Process), Adobe Create (Lessons Learned from 100 Day Project), Houston Chronicle, Quartz, KWTX, Cedar Rapids Gazette, Waco Trib, Camille Styles, The Tangential, Jessica and Krystal, The Girls with Glasses, Anthology, B is for Bonnie, Adobe Creative Cloud (Speaking at MAX).
 
-    Tara is doing what we all long to do: running a design studio on her terms, and all from her perfect place to live. She has built an amazing body of work over the past 8 years and is living proof that you don't have to live in NYC or SF to do great work and get noticed. Tara is coming to Web Afternoon to teach us how to follow in her footsteps, and to share insights she’s learned along her journey toward running her own shop.
-  talk-title: Remember Why You Started
-  talk-description: |
-    To remain authentic in a world that thrives on social media popularity, rapidly growing businesses, and viral fame, it is imperative that we constantly reflect on our beginnings - our “where,” our “why,” and and our “how.” True passion holds story at it's core, and the very expression of our stories can become the reason clients relate and gravitate toward working with us. As our creative journey unfolds and we grow from where we started, our “why” constantly evolves. When our “whys” take new shapes, our process can be directly affected. This talk sheds light on how to look inward at the fire inside for a creative life, why we should never settle, and, most importantly, the great significance of our stories.
+    talk-title: Celebrate the Process of Getting Things Done
+    talk-description: |
+      We live in a world of information overload. We’re constantly forced to curate our lives because we know that if we don’t, someone else will. Those of us who have found our home in creative industries are also learning how to hone our skills, manage our time, and coddle the vision that got us here in the first place.
+
+      So, with all of these distractions and opportunities, how do you force yourself to stay focused and just get the work done? Becky will talk about how she wrote and illustrated two books, created a backlog of art for 100 days, and is building a product company based on her illustrations. She will share her *six game-changing lessons* that anyone can use to prioritize focus, hunker down, and get started creating.
+
+  - name: Jason Pamental
+    firstname: Jason
+    slug: jason-pamental
+    photo: /img/jasonpamental.jpeg
+    job-title: Director of Design
+    company: Fresh Tilled Soil
+    company-website: http://www.freshtilledsoil.com/
+    twitter: http://www.twitter.com/jpamental
+    linkedin:
+    github:
+    instagram: https://instagram.com/jpamental
+    website:
+    dribble: https://dribbble.com/jpamental
+    bio: |
+      After over 20 years in the industry, you could say Jason Pamental knows a thing or two about how to build a successful design career. Along with serving as Director of Design &amp; Product Experience at [Fresh Tilled Soil](http://www.freshtilledsoil.com/), a design house just outside of Boston, MA, Jason is also the author of [Responsive Typography](http://shop.oreilly.com/product/0636920034063.do) (from O’Reilly), and the host of [Talking Drupal](http://www.talkingdrupal.com/), a weekly podcast focused on all things Drupal and eCommerce.
+
+      Self described as a web & typography nerd who specializes in being a generalist, Jason has an impressive portfolio of work that is truly in a league of its own. His role at FTS involves leading client workshops, defining design processes, and serving as a day-to-day touchpoint and ‘block-remover’ for project teams. He has led groundbreaking responsive redesigns for the likes of Yale, the NFL, and numerous Fortune 500 companies.
+
+      Jason is a designer who is truly at the forefront of what’s next in web design and typography, and the opportunity to learn from him about his processes and pattern of thinking can’t be missed. He’s excited to speak at Web Afternoon - Design Edition, and to encourage fellow designers on toward excellence in all they do.
+    talk-title:
+    talk-description:
+
+  - name: Hannah Donovan
+    firstname: Hannah
+    slug: hannah-donovan
+    photo: /img/hannahdonovan.png
+    job-title: Product Designer
+    company: Drip
+    company-website: https://drip.com/
+    twitter: https://twitter.com/han
+    linkedin:
+    github:
+    instagram: https://www.instagram.com/han/
+    website: http://blog.hannahdonovan.com/
+    dribble: https://dribbble.com/han
+    bio: |
+      Do you love Spotify or Apple Music? If so, you have Hannah Donovan to thank for your virtually limitless supply of music streaming. Hannah started with Last.fm in 2006 when music streaming and discovery were in their infancy, where she ultimately led a team to create the first compelling user experience for music on the web. From her time running her own startup at This Is My Jam, to building Last.fm, to working in MTV's product incubator, and now building Drip, she's been there, done that, and she has the resume to prove it.
+
+      Hannah is currently the Product Designer at Drip, “a new kind of fan club for music and culture.” She is also a well-known speaker who lives at the intersection of big data, big communities, human curation, and the design that ties it all together. She's been working with discovery and curation since her time leading the design team at Last.fm in 2006. Throughout her career, she's been a part of creating cutting edge interfaces that have gone on to influence entire sections of the app store.
+
+      Hannah will be sharing real-world tips and case studies to help you understand how to design for content, both for user-generated and user-curated product experience. Her real-world tips and battle stories are not to be missed.
+    talk-title: Souls & Machines&colon; Designing the Future of Content
+    talk-description: |
+      Not too long ago, it seemed like big data and collaborative filtering were going to solve our desires for discovery and inspiration. At the same time, platforms dedicated to new methods of self expression – music, writing, video, etc. – have matured, and their new forms of content have become mainstays of our culture.
+
+      Today, content companies are adapting to become digital products, and tech companies are learning to make content. How does a product designer navigate this changing landscape? What are the answers to questions like “humans vs. computers,” “pro vs. user-generated content,” and “opinion vs. democracy?” These questions and more will be answered through case studies, experiments, and (of course) stories.       Come to learn, stay for the fun!
+
+
+
+  - name: Tara Victoria
+    firstname: Tara
+    slug: tara-victoria
+    photo: /img/taravictoria.png
+    job-title: Founder
+    company: Hatch &amp; Harbour
+    company-website: http://www.hatchandharbour.com/
+    twitter: https://twitter.com/taravictorial
+    linkedin:
+    github:
+    instagram: https://www.instagram.com/taravictorial/
+    website: http://www.taravictoria.com/
+    dribble: https://dribbble.com/TaraVictoria
+    bio: |
+      If you’re building your own design studio, Tara Victoria is someone you’ll want to pay close attention to. As a graphic designer, she’s run the typical route -- graduate school, freelance, big agency work, small agency work -- ultimately to realize that where she really wanted to be was at home, running her own design shop and working for herself. Tara is the founder of [Hatch & Harbour Design Studio](http://www.hatchandharbour.com/) in Calgary, Alberta, Canada, where she specializes in branding and print media as she works with small businesses that have a big passion to create lasting and meaningful brands. Tara is also the author of a widely-read blog that focuses on design and fitness, two of Tara’s favorite things.
+
+      Tara is doing what we all long to do: running a design studio on her terms, and all from her perfect place to live. She has built an amazing body of work over the past 8 years and is living proof that you don't have to live in NYC or SF to do great work and get noticed. Tara is coming to Web Afternoon to teach us how to follow in her footsteps, and to share insights she’s learned along her journey toward running her own shop.
+    talk-title: Remember Why You Started
+    talk-description: |
+      To remain authentic in a world that thrives on social media popularity, rapidly growing businesses, and viral fame, it is imperative that we constantly reflect on our beginnings - our “where,” our “why,” and and our “how.” True passion holds story at it's core, and the very expression of our stories can become the reason clients relate and gravitate toward working with us. As our creative journey unfolds and we grow from where we started, our “why” constantly evolves. When our “whys” take new shapes, our process can be directly affected. This talk sheds light on how to look inward at the fire inside for a creative life, why we should never settle, and, most importantly, the great significance of our stories.
+
+
+- panelists:
+  - name: Rick Anwyl
+    firstname: Tara
+    slug: tara-victoria
+    photo: /img/taravictoria.png
+    job-title: Founder
+    company: Hatch &amp; Harbour
+    company-website: http://www.hatchandharbour.com/
+    twitter: https://twitter.com/taravictorial
+    linkedin:
+    github:
+    instagram: https://www.instagram.com/taravictorial/
+    website: http://www.taravictoria.com/
+    dribble: https://dribbble.com/TaraVictoria
+    bio: |
+      If you’re building your own design studio, Tara Victoria is someone you’ll want to pay close attention to. As a graphic designer, she’s run the typical route -- graduate school, freelance, big agency work, small agency work -- ultimately to realize that where she really wanted to be was at home, running her own design shop and working for herself. Tara is the founder of [Hatch & Harbour Design Studio](http://www.hatchandharbour.com/) in Calgary, Alberta, Canada, where she specializes in branding and print media as she works with small businesses that have a big passion to create lasting and meaningful brands. Tara is also the author of a widely-read blog that focuses on design and fitness, two of Tara’s favorite things.
+
+      Tara is doing what we all long to do: running a design studio on her terms, and all from her perfect place to live. She has built an amazing body of work over the past 8 years and is living proof that you don't have to live in NYC or SF to do great work and get noticed. Tara is coming to Web Afternoon to teach us how to follow in her footsteps, and to share insights she’s learned along her journey toward running her own shop.
+    talk-title: Remember Why You Started
+    talk-description: |
+      To remain authentic in a world that thrives on social media popularity, rapidly growing businesses, and viral fame, it is imperative that we constantly reflect on our beginnings - our “where,” our “why,” and and our “how.” True passion holds story at it's core, and the very expression of our stories can become the reason clients relate and gravitate toward working with us. As our creative journey unfolds and we grow from where we started, our “why” constantly evolves. When our “whys” take new shapes, our process can be directly affected. This talk sheds light on how to look inward at the fire inside for a creative life, why we should never settle, and, most importantly, the great significance of our stories.
