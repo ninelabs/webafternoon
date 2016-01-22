@@ -308,6 +308,24 @@ header.masthead {
   }
 }
 
+.emcee {
+  margin-bottom: 5em;
+  img {
+    max-width: 100%;
+    width: 100%;
+    border: 4px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
+    -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
+    border-image: linear-gradient(to bottom right, #0865F1 0%, #C704F6 100%);
+    border-image-slice: 1;
+    box-sizing: border-box;
+  }
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1.25em;
+  }
+}
+
 
 
 ///////////////////////////////////////////////////////////////////////
@@ -444,12 +462,23 @@ iframe#eventbrite {
 ///////////////////////////////////////////////////////////////////////
 // Sponsors
 
-.sponsor {
-  img {
-    width: 100%;
-    max-width: 100%;
+.sponsors {
+  margin-bottom: 3em;
+  h3 {
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .sponsor {
+    &:nth-child(4n+1) {
+      margin-left: 0;
+    }
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 }
+
 
 
 ///////////////////////////////////////////////////////////////////////

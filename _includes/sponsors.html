@@ -1,21 +1,19 @@
-<div class="container">
+<div class="container sponsors">
 
   <header class="row">
     <div class="twelve columns">
-      <h2>Sponsors</h2>
+      <h3>Web Afternoon is brought to you by:</h3>
     </div>
   </header>
 
   <section class="row">
-    <a href="http://www.sandboxcrew.com/" target="_blank" class="four columns sponsor">
-      <img src="/img/sandbox_300.png" alt="Sandbox Crew">
+
+    {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.url }}" target="_blank" class="three columns sponsor">
+      <img src="/img/{{ sponsor.img }}" alt="{{ sponsor.name }}">
     </a>
-    <a href="http://www.strongboxwest.com/" target="_blank" class="four columns sponsor">
-      <img src="/img/strongbox_300.png" alt="Strongbox West">
-    </a>
-    <a href="http://www.synergiscreative.com/" target="_blank" class="four columns sponsor">
-      <img src="/img/sync_300.png" alt="Sync">
-    </a>
+    {% endfor %}
+
   </section>
 
 </div>
