@@ -7,6 +7,9 @@
 - name: Sync Creative
   url: http://www.synergiscreative.com/
   img: sync.png
+- name: MyFonts
+  url: http://www.myfonts.com
+  img: myfonts.png
 - name: MailChimp
   url: http://www.mailchimp.com
   img: mailchimp.png

@@ -1,10 +1,10 @@
 - name: Rick Anwyl
   firstname: Rick
   slug: rick-anwyl
-  photo: /img/rickanwyl.jpg
+  photo: /img/rickanwyl-bw.jpg
   job-title: Owner
   company: Anwyl Ltd
-  company-website: 
+  company-website:
   bio: |
     Prior to forming the strategic business consultancy Anwyl Ltd. LLC in 2003, Rick previously founded, and for 18 years operated Executive Arts Inc. (EAI), an Atlanta based Corporate Communications Design firm. In 1994, he founded Elemental Interactive, a technology-based web and software firm, specializing in online investor communications. He later sold Elemental Interactive to Grey Global, Inc. in 1999 and EAI in 2003 to private investors.
 
@@ -22,7 +22,7 @@
 - name: Chris Coleman
   firstname: Chris
   slug: chris-coleman
-  photo: /img/chriscoleman.jpg
+  photo: /img/chriscoleman-bw.jpg
   job-title: Principle
   company: Green Banana Project
   company-website: http://greenbananaproject.com/
@@ -36,7 +36,7 @@
 - name: Hank Richardson
   firstname: Hank
   slug: hank-richardson
-  photo: /img/hankrichardson.jpg
+  photo: /img/hankrichardson-bw.jpg
   job-title: Director of Design
   company: Portfolio Center
   company-website: http://portfoliocenter.edu
@@ -62,7 +62,7 @@
 - name: Zia Kahn
   firstname: Zia
   slug: zia-kahn
-  photo: /img/ziakahn.jpg
+  photo: /img/ziakahn-bw.jpg
   job-title: Owner
   company: Lucid Design
   company-website: http://www.ziarkhan.me/
