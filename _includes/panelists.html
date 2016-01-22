@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <h2>Design Leadership Panel</h2>
+    <p>A few of the regions most experienced and gifted designers will share their thoughts on what it takes to be a design leader. How to deal with tough clients; How to fight for the best ideas; Where to look for inspiration; What the future of design looks like, and more.</p>
+  </div>
+  <div class="row panelists">
+    {% for speaker in site.data.panelists %}
+    <div class="four columns panelist">
+      <a href="{{ speaker.slug }}.html"><img src="{{ speaker.photo }}" alt="{{ speaker.name }}" /></a>
+      <div class="speakerinfo">
+        <a href="{{ speaker.slug }}.html"><h3>{{ speaker.name }}</h3></a>
+        <h6 class="speaker-title-company">
+          {{ speaker.job-title }} <br>
+          {% if speaker.company-website %}
+          <a href="{{ speaker.company-website }}">{{ speaker.company }}</a>
+          {% else %}
+          {{ speaker.company }}
+          {% endif %}
+        </h6>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

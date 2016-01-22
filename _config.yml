@@ -26,3 +26,7 @@ page_gen:
     template: 'speaker'
     name: 'name'
     dir: ''
+  - data: 'panelists'
+    template: 'panelist'
+    name: 'name'
+    dir: ''
