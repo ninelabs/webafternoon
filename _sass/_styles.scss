@@ -111,13 +111,17 @@ header.masthead {
   @include breakpoint(xs){
     font-size: 1em;
   }
-  &:hover{
+  &:hover {
     background-color: white;
     background: -webkit-linear-gradient(left, #0865F1 , #C704F6);
     background: -o-linear-gradient(right, #0865F1, #C704F6);
     background: linear-gradient(to right, #0865F1 , #C704F6);
     background: -moz-linear-gradient(right, #0865F1, #C704F6);
     color: #fff;
+  }
+  &.small {
+    font-size: 1em;
+    padding:.5em 1.5em;
   }
 }
 

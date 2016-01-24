@@ -7,7 +7,7 @@ type: speaker
   <section id="speaker-bio" class="speaker-page">
     <div class="row">
       <div class="twelve columns">
-        <h2>Speaker</h2>
+        <h2>{{ page.title }}</h2>
       </div>
     </div>
     <div class="row">
@@ -15,7 +15,7 @@ type: speaker
         <aside class="speaker-meta meta">
           <div class="speakerinfo">
             <img src="{{ page.photo }}" alt="{{ page.title }}">
-            <h3>{{ page.title }}</h3>
+            <!-- <h3>{{ page.title }}</h3> -->
             <div class="social sp">
               {% if page.twitter %}<a href="{{ page.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>{% endif %}
               {% if page.facebook %}<a href="{{ page.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>{% endif %}
@@ -29,26 +29,26 @@ type: speaker
             <h4 class="speaker-title-company">{{ page.job-title }} &middot; <a href="{{ page.company-website }}">{{ page.company }}</a></h4>
             {% endif %}
           </div>
-          <div class="vip-cta">
-            <h4>Have Brunch with {{page.firstname}}!</h4>
-            <p>Image having an hour or so to talk with {{ page.firstname }} about whatever you like. <a href="/register/">Get a VIP Ticket</a> and you can have brunch with {{ page.firstname }} before the main event begins.</p>
-            <a class="button" href="/register/">Buy a VIP Ticket</a>
-          </div>
         </aside>
       </article>
       <div class="six columns speaker speaker-bio">
-        {{ page.bio | markdownify }}
-      </div>
-    </div>
-    {% if page.talk-title && page.talk-description %}
-    <div class="row">
-      <div class="twelve columns subbio">
-        <h5>{{ page.talk-title }}</h5>
+        {% if page.talk-title && page.talk-description %}
+        <h4>{{ page.talk-title }}</h4>
         <div class="talk-description">
           {{ page.talk-description | markdownify }}
         </div>
+        {% endif %}
+        <hr>
+        <h4>About {{page.firstname}}:</h4>
+        {{ page.bio | markdownify }}
+        <div class="vip-cta">
+          <h4>Have Brunch with {{page.firstname}}!</h4>
+          <p>Image having an hour or so to talk with {{ page.firstname }} about whatever you like. <a href="/register/">Get a VIP Ticket</a> and you can have brunch with {{ page.firstname }} before the main event begins.</p>
+          <a class="register-button small" href="/register/">Get VIP Tickets</a>
+        </div>
       </div>
     </div>
-    {% endif %}
+
+
   </section>
 </div>

@@ -7,7 +7,7 @@ type: speaker
   <section id="speaker-bio" class="speaker-page">
     <div class="row">
       <div class="twelve columns">
-        <h2>Design Leadership Panelist</h2>
+        <h2>{{ page.title }}</h2>
       </div>
     </div>
     <div class="row">
@@ -16,7 +16,6 @@ type: speaker
         <aside class="speaker-meta meta">
           <div class="speakerinfo">
             <img src="{{ page.photo }}" alt="{{ page.title }}">
-            <h3>{{ page.title }}</h3>
             <div class="social sp">
               {% if page.twitter %}<a href="{{ page.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>{% endif %}
               {% if page.facebook %}<a href="{{ page.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>{% endif %}
@@ -38,7 +37,9 @@ type: speaker
         </aside>
       </article>
       <div class="six columns speaker speaker-bio">
+        <h5>Design Leadership Panelist</h5>
         {{ page.bio | markdownify }}
+        <a class="register-button small" href="/register/">See {{ page.firstname }} Speak</a>
       </div>
     </div>
     {% if page.talk-title && page.talk-description %}
