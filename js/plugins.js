@@ -22,7 +22,18 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-
+function getParameterByName(name) {
+  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+      results = regex.exec(location.search);
+  return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var url = '//eventbrite.com/tickets-external?eid=19931440475&ref=etckt';
+var dc = getParameterByName('dc');
+if(dc){
+  url = url + '&discount=' + dc ;
+}
+$('#eventbrite').attr('src',url);
 
 setTimeout(function(){
     if($("#eventbrite").css('display')=="none")
