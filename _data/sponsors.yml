@@ -1,6 +1,3 @@
-- name: Sketch
-  url: https://www.sketchapp.com/
-  img: sketch.png
 - name: The Iron Yard
   url: https://www.theironyard.com/locations/atlanta.html
   img: ironyard.png
@@ -10,6 +7,9 @@
 - name: MyFonts
   url: http://www.myfonts.com
   img: myfonts.png
+- name: Sketch
+  url: https://www.sketchapp.com/
+  img: sketch.png
 - name: MailChimp
   url: http://www.mailchimp.com
   img: mailchimp.png
