@@ -25,3 +25,9 @@
 - name: Hypepotamus
   url: http://www.hypepotamus.com
   img: hypepotamus.png
+- name: Atlanta Tech Village
+  url: http://atlantatechvillage.com
+  img: sponsor_atv.png
+- name: Event Booth
+  url: http://eventbooth.com
+  img: sponsor_eventbooth.png
