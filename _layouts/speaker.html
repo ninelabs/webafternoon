@@ -29,6 +29,11 @@ type: speaker
             <h4 class="speaker-title-company">{{ page.job-title }} &middot; <a href="{{ page.company-website }}">{{ page.company }}</a></h4>
             {% endif %}
           </div>
+          <div class="vip-cta">
+            <h4>Have Brunch with {{page.firstname}}!</h4>
+            <p>Image having an hour or so to talk with {{ page.firstname }} about whatever you like. <a href="/register/">Get a VIP Ticket</a> and you can have brunch with {{ page.firstname }} before the main event begins.</p>
+            <a class="register-button small" href="/register/">Get VIP Tickets</a>
+          </div>
         </aside>
       </article>
       <div class="six columns speaker speaker-bio">
@@ -41,13 +46,17 @@ type: speaker
         <hr>
         <h4>About {{page.firstname}}:</h4>
         {{ page.bio | markdownify }}
-        <div class="vip-cta">
-          <h4>Have Brunch with {{page.firstname}}!</h4>
-          <p>Image having an hour or so to talk with {{ page.firstname }} about whatever you like. <a href="/register/">Get a VIP Ticket</a> and you can have brunch with {{ page.firstname }} before the main event begins.</p>
-          <a class="register-button small" href="/register/">Get VIP Tickets</a>
-        </div>
       </div>
     </div>
+    {% if page.interview %}
+    <div class="row">
+      <div class="twelve columns">
+        <h2>A Brief Interview</h2>
+        {{ page.interview | markdownify }}
+
+      </div>
+    </div>
+    {% endif %}
 
 
   </section>
