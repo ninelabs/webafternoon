@@ -1,6 +1,6 @@
 // Main Styles for the Web Afternoon
 
-$primary: #C704F6;
+$primary: #EB3B86;
 
 html {
   color: red;
@@ -17,132 +17,14 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: $primary;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: $primary;
   text-shadow: none;
 }
-
-/* ==========================================================================
-   Headers
-   ========================================================================== */
-.header-minimal {
-  margin-bottom:3em;
-  margin-top:2em;
-  a {
-    text-decoration: none;
-  }
-  h1, h2 {
-    border:none;
-    font-size: 1.75em;
-    display: inline-block;
-    margin: 0;
-  }
-  .head-divider {
-    color: #888;
-    display: inline-block;
-    font-size: 1.6em;
-    margin: 0 .25rem
-  }
-  .register-button {
-    display: block;
-    font-size: 1em;
-    margin-top: 0;
-    padding:.5em 1em;
-    text-align: center;
-  }
-}
-
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-header.masthead {
-  margin-bottom: 5em;
-  .leader {
-    text-transform: uppercase;
-    margin-bottom: 3em;
-    font-size: 1.25em;
-    @include breakpoint(xs){
-      font-size: 1em;
-    }
-    span.detail {
-     display: inline-block;
-     @include breakpoint(xs){
-       display: block;
-     }
-    }
-    span.separator {
-      color:#C704F6;
-      display: inline-block;
-      padding: inherit 4em;
-      @include breakpoint(xs){
-        display: none;
-      }
-    }
-  }
-}
-
-.register-button {
-  background: #fff;
-  border: 6px solid transparent;
-  -moz-border-image: -moz-linear-gradient(left, #0865F1 0%, #C704F6 100%);
-  -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-  border-image: linear-gradient(to right, #0865F1 0%, #C704F6 100%);
-  border-image-slice: 1;
-  color: #000;
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: 3em;
-  padding: 10px 60px;
-  text-decoration: none;
-  text-transform: uppercase;
-  @include breakpoint(xs){
-    font-size: 1em;
-  }
-  &:hover {
-    background-color: white;
-    background: -webkit-linear-gradient(left, #0865F1 , #C704F6);
-    background: -o-linear-gradient(right, #0865F1, #C704F6);
-    background: linear-gradient(to right, #0865F1 , #C704F6);
-    background: -moz-linear-gradient(right, #0865F1, #C704F6);
-    color: #fff;
-  }
-  &.small {
-    font-size: 1em;
-    padding:.5em 1.5em;
-  }
-}
-
-.what-to-expect {
-  margin-bottom: 2em;
-  p {
-    font-size: 1.5em;
-  }
-  h4 {
-    margin-bottom: 0.5em;
-  }
-  ul.topics {
-    margin:0 0 0 2em;
-    li {
-      font-size: 1.5em;
-      list-style-type: square;
-    }
-  }
-
-}
-
 
 ///////////////////////////////////////////////////////////////////////
 // Branding
@@ -156,7 +38,7 @@ header.masthead {
     }
   }
   hr {
-    border-top: 5px solid #000;
+    border-top: 5px solid #EB3B86;
     position: relative;
     top: -140px;
     z-index: -1;
@@ -167,339 +49,34 @@ header.masthead {
 }
 
 
-///////////////////////////////////////////////////////////////////////
-// Speaker Boxes
-
-.speaker {
-  &:nth-child(odd) {
-    margin-left: 0;
-  }
-  margin-bottom: 4em;
-  img{
-    width:100%;
-    margin: auto;
-    background: #eee;
-    border: 10px solid transparent;
-    -moz-border-image: -moz-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-    -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-    border-image: linear-gradient(to bottom right, #0865F1 0%, #C704F6 100%);
-    border-image-slice: 1;
-    box-sizing: border-box;
-  }
-  .speakerinfo {
-    margin-top: -1em;
-    a h3 {
-      background-color: #000;
-      border: 10px solid #000;
-      color: #fff;
-      font-weight: bolder;
-      transition: all 0.5s ease;
-    }
-    a:hover h3 {
-      border-color: #C704F6;
-      transition: all 0.5s ease;
-    }
-    .social {
-      float:right;
-      padding:15px 0 0 0;
-      font-size:1.4em;
-    }
-    a {
-      transition: color 0.5s ease;
-      color: #000000;
-      &:hover{
-        transition: color 0.5s ease;
-        color: #C704F6;
-      }
-    }
-  }
-  .speaker-title-company {
-    font-size: 1.2em;
-    margin-top: .5em;
-  }
-  .biotext{
-    font-weight: 100;
-    font-size: 1.1em;
-    margin: 0;
-    padding: 1em 0 0;
-
-  }
-  .vip-cta {
-    margin-top: 3em;
-    h4 {
-      margin-bottom: 0;
-    }
-  }
-}
-
-.panelists {
-  margin-bottom: 3em;
-  margin-top: 3em;
-  .panelist {
-    &:nth-child(3n+1) {
-      margin-left: 0;
-    }
-    img {
-      display: block;
-      max-width: 100%;
-      width: 100%;
-      border: 6px solid transparent;
-      -moz-border-image: -moz-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-      -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-      border-image: linear-gradient(to bottom right, #0865F1 0%, #C704F6 100%);
-      border-image-slice: 1;
-      box-sizing: border-box;
-    }
-    h3 {
-      font-size: 1.2em;
-      font-weight: bold;
-      padding: .25em 1.5em;
-    }
-    h6 {
-      color: #222;
-      display: block;
-      font-size: 1em;
-      font-weight: bold;
-      a {
-        color: #222;
-      }
-    }
-  }
-
-}
-
-
 
 ///////////////////////////////////////////////////////////////////////
-// Schedule
+// Header
 
-.schedule {
-  td {
-    vertical-align: top;
-  }
-  .social {
-    background: #222;
-    color: #fff;
-    font-size: 1.25em;
-    a {
-      color: lighten($primary, 30%);
-    }
-  }
-  .break {
-    background-color: #eee;
-    color:#666;
-  }
-  .talk-time {
-    padding-left: 1rem;
-    white-space: nowrap;
-  }
-
-  .talk-title {
-    font-size: 1.35em;
-    margin-bottom: 0;
-  }
-  .talk-speaker {
-    color: #666;
-    font-size: 1.2em;
-    margin:0 0 .5em;
-    a {
-      color: $primary;
-      text-decoration: none;
-    }
-  }
-  .talk-info p {
-    margin: 0 0 1em;
-  }
-}
-
-.emcee {
-  margin-bottom: 5em;
+header {
+  background-color: $primary;
+  color: #fff;
+  padding-top:2em;
   img {
-    max-width: 100%;
-    width: 100%;
-    border: 10px solid transparent;
-    -moz-border-image: -moz-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-    -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-    border-image: linear-gradient(to bottom right, #0865F1 0%, #C704F6 100%);
-    border-image-slice: 1;
-    box-sizing: border-box;
-  }
-  p {
-    font-size: 1.2em;
-    margin-bottom: 1.25em;
+    width:150px;
   }
 }
 
-
-
-///////////////////////////////////////////////////////////////////////
-// Ticket Boxes
-
-.venue {
-  background-image: url('/img/venue-background.jpg');
+.event {
+  background-image: url("/img/event-blue.jpg");
   background-position: top center;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 12em;
-  .venue-info {
-    background-color: white;
-    padding: $column-margin;
-    h3 {
-      top: 0;
-      left: 0;
-      position: absolute;
-      @include breakpoint(xs){
-        left: 5%;
-      }
-    }
-    .venue-details {
-      margin-top: 2em;
-      img {
-        max-width: 100%;
-      }
-    }
-  }
-  .venue-nearby {
-    h5 {
-      border-bottom: 3px solid black;
-      display: inline-block;
-    }
-    p strong {
-      display: block;
-    }
-  }
-}
-
-
-
-///////////////////////////////////////////////////////////////////////
-// Ticket Boxes
-
-.ticket-box {
-  @extend .columns;
-  @extend .six;
-  min-height: 386px;
-  margin-top: 30px;
-  position: relative;
-  &>div {
-    padding:1em;
-  }
-
-  .ticketheader{
-    font-size: 2em;
-    margin: 0;
-  }
-
-  .ticketinfo{
-    font-size: .9em;
-    margin-bottom: .75em;
-    p {
-      margin-bottom: 1em;
-    }
-    ul {
-      li {
-        margin:0 0 .35em
-      }
-    }
-  }
-
-  .ticket-prices {
-    position: absolute;
-    bottom:1em;
-    left: 1em;
-    p {
-      margin: 0;
-      padding: 0;
-    }
-  }
-
-  .ticketprice {
-    margin:0 auto;
-    padding: 0;
-    font-size: 1.4em;
-    text-decoration: none;
-  }
-}
-
-.attendee-ticket{
-  border: 10px solid transparent;
-  -moz-border-image: -moz-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-  -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-  border-image: linear-gradient(to bottom right, #0865F1 0%, #C704F6 100%);
-  border-image-slice: 1;
-  background-color: white;
-}
-
-.vip-ticket{
-  background-color: #0865F1;
-  background: -webkit-linear-gradient(top left, #0865F1 , #C704F6);
-  background: -o-linear-gradient(bottom right, #0865F1, #C704F6);
-  background: linear-gradient(to bottom right, #0865F1 , #C704F6);
-  background: -moz-linear-gradient(bottom right, #0865F1, #C704F6);
-  border: 10px solid transparent;
-  -moz-border-image: -moz-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-  -webkit-border-image: -webkit-linear-gradient(top left, #0865F1 0%, #C704F6 100%);
-  border-image: linear-gradient(to bottom right, #0865F1 0%, #C704F6 100%);
-  border-image-slice: 1;
-  color: white;
-  margin-bottom: 5%;
-}
-
-///////////////////////////////////////////////////////////////////////
-// Eventbrite
-
-iframe#eventbrite {
-  width: 100%;
-  margin-bottom: 3em;
-  min-height: 775px;
-  @include breakpoint(xs){
-    min-height: 950px;
-  }
-}
-
-#eventbrite-alt {
-  display: none;
-  margin-bottom: 6em;
-  margin-top: 3em;
-}
-
-
-///////////////////////////////////////////////////////////////////////
-// Sponsors
-
-.sponsors {
-  margin-bottom: 3em;
-  h3 {
-    margin: auto;
-    margin-bottom: 1em;
-  }
-  .sponsor {
-    &:nth-child(4n+1) {
-      margin-left: 0;
-    }
-    img {
-      width: 100%;
-      max-width: 100%;
-    }
-  }
-}
-
-
-
-///////////////////////////////////////////////////////////////////////
-// Coming Soon Banner
-.coming-soon {
-  background-color: black;
-  color: white;
-  margin-bottom: 2em;
-  h2 {
-    margin:.5em 0 0;
-    padding: 0;
+  background-clip: content-box;
+  color:#fff;
+  .container {
+    padding:3em 0;
   }
   p {
-    font-size: 1.25em;
-    @include breakpoint(xs){
-      font-size: .9em;
-    }
+    font-size: 24px;
+  }
+  a {
+    color: $primary;
   }
 }
 
@@ -507,13 +84,9 @@ iframe#eventbrite {
 ///////////////////////////////////////////////////////////////////////
 // Footer
 footer {
-  background-color: black;
-  background: -webkit-linear-gradient(left, #0865F1 , #C704F6);
-  background: -o-linear-gradient(right, #0865F1, #C704F6);
-  background: linear-gradient(to right, #0865F1 , #C704F6);
-  background: -moz-linear-gradient(right, #0865F1, #C704F6);
-  color: white;
-  a, a:hover { color: white }
+  color: #444;
+  padding-top: 2em;
+  a, a:hover { color: #EB3B86 }
   h5 {
     font-size: 1.2em;
     margin-top: 1em;
@@ -521,27 +94,7 @@ footer {
   .copyright {
     font-size:.9em;
   }
-}
-
-
-/////////////////////////////////
-//Speaker Page
-/////////////////////////////////
-
-
-.subbio{
-  h5{
-    font-size: 1.5em;
-    font-weight:500;
-    margin-bottom: .2em;
+  .nllogo {
+    width:90px;
   }
-}
-.sp{
-  .fa{
-    font-size: 30px;
-    margin-top: -10px;
-  }
-}
-.speaker-info{
-  margin-top: -20px;
 }
