@@ -37,15 +37,6 @@ html {
       width:100px;
     }
   }
-  hr {
-    border-top: 5px solid #EB3B86;
-    position: relative;
-    top: -140px;
-    z-index: -1;
-    @include breakpoint(xs){
-      top: -102px;
-    }
-  }
 }
 
 
@@ -54,12 +45,10 @@ html {
 // Header
 
 header {
-  background-color: $primary;
+  background-color: #030387;
   color: #fff;
   padding-top:2em;
-  img {
-    width:150px;
-  }
+
 }
 
 .event {
@@ -72,6 +61,9 @@ header {
   .container {
     padding-top:3em;
     padding-bottom:3em;
+  }
+  img.logo {
+    width:150px;
   }
   p {
     font-size: 24px;
